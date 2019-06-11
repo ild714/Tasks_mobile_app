@@ -26,7 +26,7 @@ class RestaurantTableViewController: UITableViewController {
     
     var restaurantLocation = ["Hong Kong","Hong Kong","Hong Kong","Hong Kong","Hong Kong","Hong Kong","Sydney","Sydney","Sydney","Sydney","New York","New York","New York","New York","New York","New York","New York","London","London","London","London"]
     
-    //var restaurantTypes = ["Coffee & Tea Shop","Cafe","Tea House","Austrian/ Causual Drink","French","Bakery","Bakery","Chocolate","Cafe","American/Seafood","American","American","Breakfast & Brunch","Coffee & Tea","Coffe & Tea","Latian American","Spanish","Spanish","Spanish","British","Thai"]
+    var restaurantTypes = ["Coffee & Tea Shop","Cafe","Tea House","Austrian/ Causual Drink","French","Bakery","Bakery","Chocolate","Cafe","American/Seafood","American","American","Breakfast & Brunch","Coffee & Tea","Coffe & Tea","Latian American","Spanish","Spanish","Spanish","British","Thai"]
     
     override func tableView(_ tableView:UITableView,cellForRowAt indexPath:IndexPath) -> UITableViewCell{
         
@@ -35,7 +35,7 @@ class RestaurantTableViewController: UITableViewController {
         cell.nameLabel.text=restaurantNames[indexPath.row]
         cell.thumbnailImageView.image=UIImage(named:restaurantImages[indexPath.row])
         cell.locationLabel.text=restaurantLocation[indexPath.row]
-        //cell.typelabel.text=restaurantTypes[indexPath.row]
+        cell.typelabel.text=restaurantTypes[indexPath.row]
         
         return cell
     }

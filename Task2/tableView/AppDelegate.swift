@@ -1,9 +1,9 @@
 //
 //  AppDelegate.swift
-//  Task2
+//  tableView
 //
-//  Created by Ильдар Нигметзянов on 07/06/2019.
-//  Copyright © 2019 Ильдар Нигметзянов. All rights reserved.
+//  Created by Ильдар Нигметзянов on 26/07/2019.
+//  Copyright © 2019 Learning with Swift. All rights reserved.
 //
 
 import UIKit
